@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: ncplregistry.azurecr.io/rajcocvs/mypythondockerrepo:latest
+        image: selfhostedcontainer.azurecr.io/selfhostedcontainer:16
         ports:
         - containerPort: 5000
 # service type loadbalancer       
